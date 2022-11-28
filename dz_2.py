@@ -6,6 +6,40 @@
 # 67.82 -> 23
 # (-0.56) -> 11
 
+# num = abs(float(input("Введите число: ")))
+# sum = 0
+# for i in num:
+#     sum = sum + i
+# print(f"Сумма чисел в числе {num} = {sum}")
+
+
+num = abs(float(input("Введите число: ")))
+summ = 0
+while num > 0:
+    summ += num % 10
+    num //= 10
+print(summ)
+
+
+# N = int(input("Введите число="))
+# sum = 0
+# while N > 0:
+#     d = N%10
+#     N = N // 10
+#     sum += d
+#     print("Сумма всех цифр этого числа =",sum)
+
+
+
+# num = input("Enter the number: ")
+# sum = 0
+# for i in num:
+#     if i!=".":
+#         sum = sum + int(i)
+# print(f"The sum of the {num} is: ", sum)
+
+
+
 
 
 # 2.
@@ -36,3 +70,12 @@
 
 
 
+
+#
+# week_day = input("Введите день недели: ")
+# try:
+#     week_day = int(week_day)
+#     print("Получилось.")
+# except:
+#     print("Вы ввели не день недели.")
+#
